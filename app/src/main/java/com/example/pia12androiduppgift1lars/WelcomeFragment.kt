@@ -32,10 +32,10 @@ class WelcomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.welcomeText.text = "Welcome"
+        binding.welcomeText.text = "Welcome!"
 
         binding.actionBtn.setOnClickListener {
-            binding.welcomeText.text = "Good bye"
+            binding.welcomeText.text = "Good bye!"
             binding.welcomeText.setBackgroundColor(Color.RED)
         }
     }
